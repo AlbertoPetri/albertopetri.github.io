@@ -1,0 +1,67 @@
+html {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color:darkslategray;
+  }
+  
+  #app{
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 900px;
+    margin: 0px auto;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    /* box-shadow: 10px 10px 8px #888888; */
+  }
+
+  #content {
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+#sign {
+    text-align: center;
+    font-size: xx-large;
+}
+
+ p {
+    text-align: center;
+ }
+
+  h1, h3 {
+      text-align: center;
+      text-decoration: underline;
+  }
+  
+  h2 {
+      text-align: left;
+      text-decoration: none;
+  }
+
+  body > footer {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    padding: 1em 1.5em 1em;
+    width: 900px;
+    margin: 0px auto;
+    font-size: 75%;
+    color: #838383;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body > footer strong {
+    color: #FFFFFF;
+}
+body > footer a:link {
+    color: #818BC5;
+}
+body > footer a:visited {
+    color: #BE81C5;
+}
+body > footer a:hover {
+    text-decoration: underline;
+}
